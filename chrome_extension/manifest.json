@@ -1,0 +1,22 @@
+{
+    "name": "User Study Chrome Extension",
+    "author": "Tellina Team",
+    "version": "0.1",
+    "description": "Notify a callback URL whenever a webpage is loaded or displayed.",
+    "homepage_url": "http://kirin.cs.washington.edu:8000/",
+    "icons": {
+        "16": "tellina.svg",
+        "32": "tellina.svg",
+        "48": "tellina.svg",
+        "128": "tellina.svg"
+    },
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["bg.js"]
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "options_page": "options.html"
+}

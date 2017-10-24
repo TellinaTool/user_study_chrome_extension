@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Options</title>
+    <style>
+        body { font-family: "Droid Sans", sans-serif; color: #333; }
+        input { transition: border-color 0.3s; border: 1px solid #ccc; padding: 0.2em }
+        input:focus { border: 1px solid #66AFE9; outline: none; }
+        .logo { float: left; margin-right: 1em; }
+        h2 { margin: 0; padding: 0; margin-bottom: 0.1em; }
+        p { margin:0; padding: 0; }
+        header { border-bottom: 1px solid #ccc; padding-bottom: 1.25em; margin-bottom: 1em }
+        main { padding-left: 1em; }
+        a { text-decoration: none; color: #428BCA}
+        a:hover {text-decoration: underline; color: #2A6496}
+        hr { border: none; border-bottom: 1px solid #ccc;}
+        form {display: table; margin-left: 2em}
+        em.info {color: #777}
+    </style>
+</head>
+<body>
+<header>
+<img class="logo" src="tellina.svg" style="height:48px;"/>
+<h2>Tellina User Study</h2>
+<p><a href="http://kirin.cs.washington.edu:8000/">Tellina</a></p>
+</header>
+<main>
+<p>Please use this while doing the study and enter provided credentials.
+<a href="">Read more.</a></p>
+<h3>Credentials</h3>
+<form>
+<p>
+<label for=username>Username</label>: <input id="callback" type="text" spellcheck="false"><br/>
+</p>
+<hr/>
+<p>
+<label for=password>Password</label>:  <input id="key" type="password" spellcheck="false"><br/>
+</p>
+</main>
+<script src='options.js'></script>
+
+</body>
+</html>
