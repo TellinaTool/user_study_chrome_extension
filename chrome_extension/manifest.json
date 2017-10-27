@@ -1,5 +1,5 @@
 {
-    "name": "User Study Chrome Extension",
+    "name": "Bash User Study Chrome Extension",
     "author": "Tellina Team",
     "version": "0.1",
     "description": "Notify a callback URL whenever a webpage is loaded or displayed.",
