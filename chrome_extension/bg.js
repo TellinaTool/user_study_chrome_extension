@@ -1,6 +1,7 @@
 var prefs = {};
 
-chrome.storage.local.get({username: '', password: '', history: [], unsentIndex: 0}, function(o) { prefs = o; });
+chrome.storage.local.get({username: '', password: '', history: [], unsentIndex: 0},
+                         function(o) { prefs = o; });
 chrome.storage.onChanged.addListener(function(changes) {
     for (key in changes) {
         prefs[key] = changes[key].newValue;
