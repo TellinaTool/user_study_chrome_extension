@@ -9,4 +9,4 @@ Instructions
 ++++++++++++
 * Download history from clicking the Complete button in the extension options page.
 * Place the downloaded data.json file in this directory.
-    $ python print_history.py
+* Run python print_history.py
