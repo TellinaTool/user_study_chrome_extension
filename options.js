@@ -19,14 +19,15 @@ function restore_options() {
 // Writes the locally stored username, password, and history to a file
 // and then downloads the file.
 function download_history() {
+    // get all data
     chrome.storage.local.get({username: '', password: '', history: []}, function(o) { 
         prefs = o; 
 
+        // do some hacking to download the data as a file
         var el = document.createElement("dummy");
         el.innerText = "" + JSON.stringify(prefs);    
         var escapedHTML = el.innerHTML;
-    
-        //  Use dummy <a /> tag to save
+        //  Use dummy link tag <a> to save
         var link = document.createElement("a");
         link.download = 'data.json';
         link.href = "data:application/json,"+escapedHTML;
