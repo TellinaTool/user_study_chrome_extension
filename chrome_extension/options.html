@@ -21,23 +21,27 @@
 </head>
 <body>
 <header>
-<!-- <img class="logo" src="tellina.svg" style="height:48px;"/> -->
-<h2>Bash User Study</h2>
-<!-- <p><a href="http://kirin.cs.washington.edu:8000/">Tellina</a></p> -->
+    <h2>Bash User Study</h2>
 </header>
 <main>
-<p>Please enter your credentials for the bash user study.
-<a href="">Read more.</a></p>
-<h3>Credentials</h3>
-<form>
-<p>
-<label for=username>Username</label>: <input id="callback" type="text" spellcheck="false"><br/>
-</p>
-<hr/>
-<p>
-<label for=password>Password</label>:  <input id="key" type="password" spellcheck="false"><br/>
-</p>
+    <!-- <p>Please enter your credentials for the bash user study. -->
+    <h3>Please enter your credentials before starting the study.</h3>
+    <form>
+    <p>
+        <label for=username>Username</label>: <input id="username" type="text" spellcheck="false"><br/>
+    </p>
+    <hr/>
+    <p>
+        <label for=password>Password</label>:  <input id="password" type="password" spellcheck="false"><br/>
+    </p>
+    </form>
+
+    <h3>Click the button below when you are finished with study. Thanks!</h3>
+    <p>
+        <button type="button" id="completed">Complete!</button>
+    </p>
 </main>
+
 <script src='options.js'></script>
 
 </body>
