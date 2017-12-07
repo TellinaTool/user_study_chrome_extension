@@ -7,7 +7,7 @@ Installation
 * Launch Google Chrome.
 * Go to ``chrome://extensions``.
 * Select the *Developer mode* option in the top right corner.
-* Click on *Load unpacked extension…* and select this cloned directory's folder i.e. user_study_chrome_extension.
+* Click on *Load unpacked extension…* and select this cloned directory's folder i.e. ``user_study_chrome_extension``.
 
 
 Code Overview
