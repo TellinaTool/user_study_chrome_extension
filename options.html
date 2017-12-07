@@ -24,21 +24,23 @@
     <h2>Bash User Study</h2>
 </header>
 <main>
-    <h3>Please enter your credentials before starting the study.</h3>
-    <form>
-    <p>
-        <label for=username>Username</label>: <input id="username" type="text" spellcheck="false"><br/>
-    </p>
-    <hr/>
-    <p>
-        <label for=password>Password</label>:  <input id="password" type="password" spellcheck="false"><br/>
-    </p>
-    </form>
-
-    <h3>Click the button below when you are finished with study. Thanks!</h3>
-    <p>
-        <button type="button" id="completed">Complete!</button>
-    </p>
+    <h3>Before the study.</h3>
+    <ul>
+        <li>This chrome extension records the webpages you visit during the study so 
+            please only visit webpages relevant to the study.</li>
+        <li>Close this window and start the study</li>
+    </ul>
+    
+    <h3>After the study.</h3>
+    <ul>
+        <li>Please click the download log button and upload this file to the provided link</li>
+        <button type="button" id="completed">Download Log!</button>
+        <li>Please uninstall this chrome extension.</li>
+        <form></form>
+    </ul>
+    <!-- <p>
+        <button type="button" id="completed">Download Log!</button>
+    </p> -->
 </main>
 
 <script src='options.js'></script>

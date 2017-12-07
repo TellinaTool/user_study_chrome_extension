@@ -38,7 +38,5 @@ function download_history() {
 }
 
 // adds listeners to the elements in options.html
-document.getElementById('username').addEventListener('change', save);
-document.getElementById('password').addEventListener('change', save);
 document.getElementById('completed').addEventListener('click', download_history);
 document.addEventListener('DOMContentLoaded', restore_options);
