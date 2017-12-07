@@ -3,7 +3,7 @@ User Study Chrome Extension
 
 Installation
 ++++++++++++
-* Clone this repository  `git clone https://github.com/TellinaTool/user_study_chrome_extension.git`
+* Clone this repository  ``git clone https://github.com/TellinaTool/user_study_chrome_extension.git``
 * Launch Google Chrome.
 * Go to ``chrome://extensions``.
 * Select the *Developer mode* option in the top right corner.
