@@ -1,4 +1,4 @@
-// background.js stores the users browsing history locally.
+// background.js stores the user's browsing history locally.
 
 // Load the stored history.
 var prefs = {};
